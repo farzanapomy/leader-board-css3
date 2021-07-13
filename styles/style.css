@@ -109,3 +109,53 @@ height: 104px;
 .fa-star.empty{
     color: #AEAEAE;
 }
+
+/* media queries */
+/* mobile device */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .players , .blogs , .courses{
+        font-size: 5px;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px ;
+    }
+   
+    
+}
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .players , .blogs , .courses{
+        font-size: 5px;
+        background-color: tomato;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px 20px ;
+    }
+   
+   
+    
+}
+@media only screen and (min-width:689px) and (max-width:991px)  {
+    .container{
+        width: 100%;
+        
+    }
+    .players , .blogs , .courses{
+        font-size: 5px;
+        background-color: tomato;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px ;
+    }
+    .player , .blog{
+        flex-direction: column;
+    }
+   
+    
+}
