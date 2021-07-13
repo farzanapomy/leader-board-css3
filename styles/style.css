@@ -31,6 +31,8 @@ hr{
 /* top players style  */
 .top-players{
     margin-bottom: 30px;
+    padding: 15px;
+    background-color: cadetblue;
 }
 .section-title{
     color: #562EFF;
@@ -45,6 +47,8 @@ hr{
 .player{
     display: flex;
     align-items: center;
+    border: 5px double gray;
+    padding: 5px 15px;
     
 }
 .player img{
